@@ -33,3 +33,35 @@ main {
 .main-content-card:nth-child(even){
     flex-direction: row-reverse;
 }
+
+.nav-header {
+    height: 20vh;
+    background-image: url(./main.css/);
+    /*background-color: green;*/
+    border: 1px solid red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-header li {
+    margin-left: 1em;
+}
